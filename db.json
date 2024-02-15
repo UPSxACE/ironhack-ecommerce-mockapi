@@ -1,0 +1,538 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "coolcat23",
+      "password": "P@ssw0rd123",
+      "name": "Alice Johnson"
+    },
+    {
+      "id": 2,
+      "username": "techwizard88",
+      "password": "SecurePass321",
+      "name": "John Smith"
+    },
+    {
+      "id": 3,
+      "username": "gadgetlover42",
+      "password": "Geeky123!",
+      "name": "Emily Davis"
+    },
+    {
+      "id": 4,
+      "username": "smartgamer19",
+      "password": "GameOn456",
+      "name": "Michael Brown"
+    },
+    {
+      "id": 5,
+      "username": "musicfanatic7",
+      "password": "RocknRoll789",
+      "name": "Jessica Wilson"
+    },
+    {
+      "id": 6,
+      "username": "cyberninja31",
+      "password": "NinjaPower321",
+      "name": "Daniel Martinez"
+    },
+    {
+      "id": 7,
+      "username": "codingqueen55",
+      "password": "CodeMaster123",
+      "name": "Sophia Taylor"
+    },
+    {
+      "id": 8,
+      "username": "digitalartist10",
+      "password": "Artistic@123",
+      "name": "Ethan Clark"
+    }
+  ],
+  "category": [
+    { "id": 1, "name": "Cellphones" },
+    { "id": 2, "name": "Monitors" },
+    { "id": 3, "name": "Gaming" },
+    { "id": 4, "name": "Accessories" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Samsung Galaxy S21",
+      "image": "/public/products/product1.jpg",
+      "price": "799.99"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "iPhone 13 Pro",
+      "image": "/public/products/product2.jpg",
+      "price": "1099.99"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "Google Pixel 6",
+      "image": "/public/products/product3.jpg",
+      "price": "699.99"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "title": "OnePlus 9 Pro",
+      "image": "/public/products/product4.jpg",
+      "price": "899.99"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "title": "Xiaomi Mi 11",
+      "image": "/public/products/product5.jpg",
+      "price": "649.99"
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "title": "Sony Xperia 1 III",
+      "image": "/public/products/product6.jpg",
+      "price": "1199.99"
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "title": "Huawei P40 Pro",
+      "image": "/public/products/product7.jpg",
+      "price": "749.99"
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "title": "LG Velvet",
+      "image": "/public/products/product8.jpg",
+      "price": "599.99"
+    },
+    {
+      "id": 9,
+      "categoryId": 1,
+      "title": "Motorola Edge+",
+      "image": "/public/products/product9.jpg",
+      "price": "899.99"
+    },
+    {
+      "id": 10,
+      "categoryId": 1,
+      "title": "Nokia 9 PureView",
+      "image": "/public/products/product10.jpg",
+      "price": "499.99"
+    },
+    {
+      "id": 11,
+      "categoryId": 1,
+      "title": "ASUS ROG Phone 5",
+      "image": "/public/products/product11.jpg",
+      "price": "999.99"
+    },
+    {
+      "id": 12,
+      "categoryId": 1,
+      "title": "BlackBerry Key2",
+      "image": "/public/products/product12.jpg",
+      "price": "399.99"
+    },
+    {
+      "id": 13,
+      "categoryId": 2,
+      "title": "Dell Ultrasharp U2719D",
+      "image": "/public/products/product13.jpg",
+      "price": "349.99"
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "title": "LG 27UK850-W",
+      "image": "/public/products/product14.jpg",
+      "price": "449.99"
+    },
+    {
+      "id": 15,
+      "categoryId": 2,
+      "title": "ASUS TUF Gaming VG27AQ",
+      "image": "/public/products/product15.jpg",
+      "price": "379.99"
+    },
+    {
+      "id": 16,
+      "categoryId": 2,
+      "title": "Samsung Odyssey G7",
+      "image": "/public/products/product16.jpg",
+      "price": "699.99"
+    },
+    {
+      "id": 17,
+      "categoryId": 2,
+      "title": "Acer Predator XB271HU",
+      "image": "/public/products/product17.jpg",
+      "price": "599.99"
+    },
+    {
+      "id": 18,
+      "categoryId": 2,
+      "title": "BenQ EX3501R",
+      "image": "/public/products/product18.jpg",
+      "price": "699.99"
+    },
+    {
+      "id": 19,
+      "categoryId": 2,
+      "title": "HP Pavilion 27xw",
+      "image": "/public/products/product19.jpg",
+      "price": "249.99"
+    },
+    {
+      "id": 20,
+      "categoryId": 2,
+      "title": "ViewSonic VX3276-2K-MHD",
+      "image": "/public/products/product20.jpg",
+      "price": "279.99"
+    },
+    {
+      "id": 21,
+      "categoryId": 2,
+      "title": "Dell S2721DGF",
+      "image": "/public/products/product21.jpg",
+      "price": "499.99"
+    },
+    {
+      "id": 22,
+      "categoryId": 2,
+      "title": "LG 34WK95U-W",
+      "image": "/public/products/product22.jpg",
+      "price": "1199.99"
+    },
+    {
+      "id": 23,
+      "categoryId": 2,
+      "title": "ASUS ProArt PA248QV",
+      "image": "/public/products/product23.jpg",
+      "price": "299.99"
+    },
+    {
+      "id": 24,
+      "categoryId": 2,
+      "title": "Acer Nitro XV273K",
+      "image": "/public/products/product24.jpg",
+      "price": "799.99"
+    },
+    {
+      "id": 25,
+      "categoryId": 3,
+      "title": "Razer DeathAdder Elite Gaming Mouse",
+      "image": "/public/products/product25.jpg",
+      "price": "69.99"
+    },
+    {
+      "id": 26,
+      "categoryId": 3,
+      "title": "SteelSeries Arctis 7 Wireless Gaming Headset",
+      "image": "/public/products/product26.jpg",
+      "price": "149.99"
+    },
+    {
+      "id": 27,
+      "categoryId": 3,
+      "title": "Corsair K95 RGB Platinum Mechanical Gaming Keyboard",
+      "image": "/public/products/product27.jpg",
+      "price": "179.99"
+    },
+    {
+      "id": 28,
+      "categoryId": 3,
+      "title": "Logitech G Pro X Superlight Wireless Gaming Mouse",
+      "image": "/public/products/product28.jpg",
+      "price": "129.99"
+    },
+    {
+      "id": 29,
+      "categoryId": 3,
+      "title": "HyperX Cloud Alpha S Gaming Headset",
+      "image": "/public/products/product29.jpg",
+      "price": "129.99"
+    },
+    {
+      "id": 30,
+      "categoryId": 3,
+      "title": "Elgato Stream Deck Mini",
+      "image": "/public/products/product30.jpg",
+      "price": "79.99"
+    },
+    {
+      "id": 31,
+      "categoryId": 3,
+      "title": "Razer Naga Trinity Gaming Mouse",
+      "image": "/public/products/product31.jpg",
+      "price": "99.99"
+    },
+    {
+      "id": 32,
+      "categoryId": 3,
+      "title": "ASTRO Gaming A40 TR Headset",
+      "image": "/public/products/product32.jpg",
+      "price": "149.99"
+    },
+    {
+      "id": 33,
+      "categoryId": 3,
+      "title": "Corsair MM300 Extended Gaming Mouse Pad",
+      "image": "/public/products/product33.jpg",
+      "price": "29.99"
+    },
+    {
+      "id": 34,
+      "categoryId": 3,
+      "title": "Razer Tartarus V2 Gaming Keypad",
+      "image": "/public/products/product34.jpg",
+      "price": "79.99"
+    },
+    {
+      "id": 35,
+      "categoryId": 3,
+      "title": "Logitech G Pro X Gaming Headset",
+      "image": "/public/products/product35.jpg",
+      "price": "99.99"
+    },
+    {
+      "id": 36,
+      "categoryId": 3,
+      "title": "SteelSeries QcK Gaming Surface",
+      "image": "/public/products/product36.jpg",
+      "price": "19.99"
+    },
+    {
+      "id": 37,
+      "categoryId": 4,
+      "title": "Anker PowerCore 10000 Portable Charger",
+      "image": "/public/products/product37.jpg",
+      "price": "29.99"
+    },
+    {
+      "id": 38,
+      "categoryId": 4,
+      "title": "Amazon Echo Dot (4th Gen)",
+      "image": "/public/products/product38.jpg",
+      "price": "49.99"
+    },
+    {
+      "id": 39,
+      "categoryId": 4,
+      "title": "Apple AirPods Pro",
+      "image": "/public/products/product39.jpg",
+      "price": "249.99"
+    },
+    {
+      "id": 40,
+      "categoryId": 4,
+      "title": "Fitbit Charge 5 Fitness Tracker",
+      "image": "/public/products/product40.jpg",
+      "price": "179.99"
+    },
+    {
+      "id": 41,
+      "categoryId": 4,
+      "title": "Tile Mate Bluetooth Key Finder",
+      "image": "/public/products/product41.jpg",
+      "price": "24.99"
+    },
+    {
+      "id": 42,
+      "categoryId": 4,
+      "title": "Google Nest Thermostat",
+      "image": "/public/products/product42.jpg",
+      "price": "129.99"
+    },
+    {
+      "id": 43,
+      "categoryId": 4,
+      "title": "Bose QuietComfort 45 Noise Cancelling Headphones",
+      "image": "/public/products/product43.jpg",
+      "price": "329.99"
+    },
+    {
+      "id": 44,
+      "categoryId": 4,
+      "title": "Samsung Galaxy Watch 4",
+      "image": "/public/products/product44.jpg",
+      "price": "299.99"
+    },
+    {
+      "id": 45,
+      "categoryId": 4,
+      "title": "Logitech MX Master 3 Wireless Mouse",
+      "image": "/public/products/product45.jpg",
+      "price": "99.99"
+    },
+    {
+      "id": 46,
+      "categoryId": 4,
+      "title": "JBL Flip 5 Portable Bluetooth Speaker",
+      "image": "/public/products/product46.jpg",
+      "price": "119.99"
+    },
+    {
+      "id": 47,
+      "categoryId": 4,
+      "title": "GoPro HERO10 Black",
+      "image": "/public/products/product47.jpg",
+      "price": "499.99"
+    },
+    {
+      "id": 48,
+      "categoryId": 4,
+      "title": "Sony WH-1000XM4 Wireless Headphones",
+      "image": "/public/products/product48.jpg",
+      "price": "349.99"
+    }
+  ],
+  "rates": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 12,
+      "rating": 5,
+      "comment": "This phone exceeded my expectations! Great camera quality and battery life."
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "productId": 30,
+      "rating": 4,
+      "comment": "The Elgato Stream Deck Mini is a game-changer for my streaming setup. Love it!"
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "productId": 22,
+      "rating": 5,
+      "comment": "The LG 34WK95U-W monitor is simply stunning. It's transformed my workflow!"
+    },
+    {
+      "id": 4,
+      "userId": 7,
+      "productId": 8,
+      "rating": 4,
+      "comment": "The LG Velvet feels premium in hand and the display is gorgeous. Happy with my purchase!"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "productId": 39,
+      "rating": 5,
+      "comment": "AirPods Pro are a must-have for anyone in love with Apple's ecosystem. They sound amazing!"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "productId": 18,
+      "rating": 4,
+      "comment": "The BenQ EX3501R monitor is perfect for multitasking. Great colors and sharpness!"
+    },
+    {
+      "id": 7,
+      "userId": 8,
+      "productId": 46,
+      "rating": 5,
+      "comment": "JBL Flip 5 is the best portable speaker I've ever had. Great sound quality and battery life!"
+    },
+    {
+      "id": 8,
+      "userId": 4,
+      "productId": 14,
+      "rating": 4,
+      "comment": "The LG 27UK850-W monitor is perfect for gaming and productivity. Very satisfied."
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "productId": 3,
+      "rating": 5,
+      "comment": "The Google Pixel 6 has an amazing camera. I'm impressed with its low-light performance."
+    },
+    {
+      "id": 10,
+      "userId": 3,
+      "productId": 42,
+      "rating": 5,
+      "comment": "Google Nest Thermostat has made managing my home's temperature so much easier!"
+    },
+    {
+      "id": 11,
+      "userId": 5,
+      "productId": 35,
+      "rating": 4,
+      "comment": "Logitech G Pro X Gaming Headset delivers excellent audio quality. Great for gaming!"
+    },
+    {
+      "id": 12,
+      "userId": 7,
+      "productId": 20,
+      "rating": 3,
+      "comment": "The ViewSonic VX3276-2K-MHD monitor is decent, but I expected better color accuracy."
+    },
+    {
+      "id": 13,
+      "userId": 2,
+      "productId": 16,
+      "rating": 5,
+      "comment": "Samsung Odyssey G7 is a beast! Amazing refresh rate and picture quality."
+    },
+    {
+      "id": 14,
+      "userId": 6,
+      "productId": 23,
+      "rating": 4,
+      "comment": "The ASUS ProArt PA248QV monitor is a great choice for graphic design work."
+    },
+    {
+      "id": 15,
+      "userId": 8,
+      "productId": 48,
+      "rating": 5,
+      "comment": "Sony WH-1000XM4 Wireless Headphones have top-notch noise cancellation. Love them!"
+    },
+    {
+      "id": 16,
+      "userId": 4,
+      "productId": 31,
+      "rating": 4,
+      "comment": "Razer Naga Trinity Gaming Mouse is comfortable to use and the customization options are impressive."
+    },
+    {
+      "id": 17,
+      "userId": 1,
+      "productId": 7,
+      "rating": 5,
+      "comment": "Huawei P40 Pro's camera capabilities are mind-blowing. Great phone overall."
+    },
+    {
+      "id": 18,
+      "userId": 3,
+      "productId": 27,
+      "rating": 3,
+      "comment": "Corsair K95 RGB Platinum Mechanical Gaming Keyboard is good but a bit overpriced for what it offers."
+    },
+    {
+      "id": 19,
+      "userId": 5,
+      "productId": 37,
+      "rating": 5,
+      "comment": "Anker PowerCore 10000 Portable Charger is a lifesaver during long trips. Highly recommended!"
+    },
+    {
+      "id": 20,
+      "userId": 7,
+      "productId": 10,
+      "rating": 4,
+      "comment": "Nokia 9 PureView has a unique camera setup. Takes stunning photos!"
+    }
+  ]
+}
