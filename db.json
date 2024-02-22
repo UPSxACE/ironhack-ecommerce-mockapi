@@ -4,56 +4,76 @@
       "id": 1,
       "username": "coolcat23",
       "password": "P@ssw0rd123",
-      "name": "Alice Johnson"
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com"
     },
     {
       "id": 2,
       "username": "techwizard88",
       "password": "SecurePass321",
-      "name": "John Smith"
+      "name": "John Smith",
+      "email": "john.smith@example.com"
     },
     {
       "id": 3,
       "username": "gadgetlover42",
       "password": "Geeky123!",
-      "name": "Emily Davis"
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com"
     },
     {
       "id": 4,
       "username": "smartgamer19",
       "password": "GameOn456",
-      "name": "Michael Brown"
+      "name": "Michael Brown",
+      "email": "michael.brown@example.com"
     },
     {
       "id": 5,
       "username": "musicfanatic7",
       "password": "RocknRoll789",
-      "name": "Jessica Wilson"
+      "name": "Jessica Wilson",
+      "email": "jessica.wilson@example.com"
     },
     {
       "id": 6,
       "username": "cyberninja31",
       "password": "NinjaPower321",
-      "name": "Daniel Martinez"
+      "name": "Daniel Martinez",
+      "email": "daniel.martinez@example.com"
     },
     {
       "id": 7,
       "username": "codingqueen55",
       "password": "CodeMaster123",
-      "name": "Sophia Taylor"
+      "name": "Sophia Taylor",
+      "email": "sophia.taylor@example.com"
     },
     {
       "id": 8,
       "username": "digitalartist10",
       "password": "Artistic@123",
-      "name": "Ethan Clark"
+      "name": "Ethan Clark",
+      "email": "ethan.clark@example.com"
     }
   ],
   "categories": [
-    { "id": 1, "name": "Cellphones" },
-    { "id": 2, "name": "Monitors" },
-    { "id": 3, "name": "Gaming" },
-    { "id": 4, "name": "Accessories" }
+    {
+      "id": 1,
+      "name": "Cellphones"
+    },
+    {
+      "id": 2,
+      "name": "Monitors"
+    },
+    {
+      "id": 3,
+      "name": "Gaming"
+    },
+    {
+      "id": 4,
+      "name": "Accessories"
+    }
   ],
   "products": [
     {
