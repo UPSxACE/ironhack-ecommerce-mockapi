@@ -2,10 +2,10 @@
   "users": [
     {
       "id": 1,
-      "username": "coolcat23",
-      "password": "P@ssw0rd123",
-      "name": "Alice Johnson",
-      "email": "alice.johnson@example.com"
+      "username": "admin",
+      "password": "$2a$10$aZEUwzQXGjuO97mbxIbc9.l.A5uYZ7GpMeXipxaZFpcpC22aFfeeC",
+      "name": "Admin",
+      "email": "admin@admin.com"
     },
     {
       "id": 2,
@@ -62,32 +62,6 @@
       "name": "Eduardo Botelho",
       "username": "edu",
       "id": 9
-    },
-    {
-      "email": "abc@example.com",
-      "password": "$2a$10$QxR.z6fo4nv7Tx6yOOUswO01f3.0M1hYbovheR2oKCYoZOgECPiH2",
-      "id": 10
-    },
-    {
-      "email": "edu2@abc.com",
-      "password": "$2a$10$FaCLbbgVXNoz4g7K2coQ1ObPWGatWUwOO4av3kNMfx9WWe7GbNu2y",
-      "name": "Eduardo Botelho",
-      "username": "edu2",
-      "id": 11
-    },
-    {
-      "email": "edu234@abc.com",
-      "password": "$2a$10$Z9S2nHnIoi5pFDzvy4p1leb0dbe3oOJppLcJAsGS8s7NS/qU5nVdG",
-      "name": "Eduardo Botelho",
-      "username": "edu23",
-      "id": 12
-    },
-    {
-      "email": "edu2345@abc.com",
-      "password": "$2a$10$OGYZiYYNQkXL.4gPwyV/GelFUcdL1XpPuWB2Xyk2Ud1Fsf11UEAmu",
-      "name": "Eduardo Botelho",
-      "username": "edu234",
-      "id": 13
     }
   ],
   "categories": [
@@ -595,7 +569,7 @@
   "rates": [
     {
       "id": 1,
-      "userId": 1,
+      "userId": 10,
       "productId": 12,
       "rating": 5,
       "comment": "This phone exceeded my expectations! Great camera quality and battery life."
@@ -651,7 +625,7 @@
     },
     {
       "id": 9,
-      "userId": 1,
+      "userId": 8,
       "productId": 3,
       "rating": 5,
       "comment": "The Google Pixel 6 has an amazing camera. I'm impressed with its low-light performance."
@@ -707,7 +681,7 @@
     },
     {
       "id": 17,
-      "userId": 1,
+      "userId": 6,
       "productId": 7,
       "rating": 5,
       "comment": "Huawei P40 Pro's camera capabilities are mind-blowing. Great phone overall."
@@ -763,7 +737,7 @@
     },
     {
       "id": 25,
-      "userId": 1,
+      "userId": 7,
       "productId": 9,
       "rating": 3,
       "comment": "Motorola Edge+ has good performance but the camera could be better."
@@ -819,7 +793,7 @@
     },
     {
       "id": 33,
-      "userId": 1,
+      "userId": 9,
       "productId": 6,
       "rating": 3,
       "comment": "Sony Xperia 1 III has impressive features but the battery life could be better."
@@ -875,7 +849,7 @@
     },
     {
       "id": 41,
-      "userId": 1,
+      "userId": 8,
       "productId": 32,
       "rating": 4,
       "comment": "ASTRO Gaming A40 TR Headset provides immersive sound quality. Comfortable for long gaming sessions."
@@ -931,7 +905,7 @@
     },
     {
       "id": 49,
-      "userId": 1,
+      "userId": 5,
       "productId": 3,
       "rating": 4,
       "comment": "Google Pixel 6 offers smooth performance and excellent camera quality. Happy with the purchase!"
@@ -987,7 +961,7 @@
     },
     {
       "id": 57,
-      "userId": 1,
+      "userId": 4,
       "productId": 32,
       "rating": 4,
       "comment": "ASTRO Gaming A40 TR Headset delivers immersive sound quality. Comfortable for long gaming sessions."
@@ -1043,7 +1017,7 @@
     },
     {
       "id": 65,
-      "userId": 1,
+      "userId": 5,
       "productId": 29,
       "rating": 4,
       "comment": "HyperX Cloud Alpha S Gaming Headset offers immersive sound quality. Comfortable to wear for long gaming sessions."
@@ -1099,7 +1073,7 @@
     },
     {
       "id": 73,
-      "userId": 1,
+      "userId": 7,
       "productId": 41,
       "rating": 5,
       "comment": "Tile Mate Bluetooth Key Finder is small and reliable. Helps me keep track of my keys!"
@@ -1155,7 +1129,7 @@
     },
     {
       "id": 81,
-      "userId": 1,
+      "userId": 5,
       "productId": 45,
       "rating": 5,
       "comment": "Logitech MX Master 3 Wireless Mouse is ergonomic and highly responsive. Great for productivity!"
@@ -1211,7 +1185,7 @@
     },
     {
       "id": 89,
-      "userId": 1,
+      "userId": 8,
       "productId": 3,
       "rating": 4,
       "comment": "Google Pixel 6 offers smooth performance and excellent camera quality. Happy with the purchase!"
@@ -1267,7 +1241,7 @@
     },
     {
       "id": 97,
-      "userId": 1,
+      "userId": 3,
       "productId": 32,
       "rating": 4,
       "comment": "ASTRO Gaming A40 TR Headset delivers immersive sound quality. Comfortable for long gaming sessions."
