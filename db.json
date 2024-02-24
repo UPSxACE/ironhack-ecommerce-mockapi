@@ -55,24 +55,61 @@
       "password": "Artistic@123",
       "name": "Ethan Clark",
       "email": "ethan.clark@example.com"
+    },
+    {
+      "email": "edu@abc.com",
+      "password": "$2a$10$aZEUwzQXGjuO97mbxIbc9.l.A5uYZ7GpMeXipxaZFpcpC22aFfeeC",
+      "name": "Eduardo Botelho",
+      "username": "edu",
+      "id": 9
+    },
+    {
+      "email": "abc@example.com",
+      "password": "$2a$10$QxR.z6fo4nv7Tx6yOOUswO01f3.0M1hYbovheR2oKCYoZOgECPiH2",
+      "id": 10
+    },
+    {
+      "email": "edu2@abc.com",
+      "password": "$2a$10$FaCLbbgVXNoz4g7K2coQ1ObPWGatWUwOO4av3kNMfx9WWe7GbNu2y",
+      "name": "Eduardo Botelho",
+      "username": "edu2",
+      "id": 11
+    },
+    {
+      "email": "edu234@abc.com",
+      "password": "$2a$10$Z9S2nHnIoi5pFDzvy4p1leb0dbe3oOJppLcJAsGS8s7NS/qU5nVdG",
+      "name": "Eduardo Botelho",
+      "username": "edu23",
+      "id": 12
+    },
+    {
+      "email": "edu2345@abc.com",
+      "password": "$2a$10$OGYZiYYNQkXL.4gPwyV/GelFUcdL1XpPuWB2Xyk2Ud1Fsf11UEAmu",
+      "name": "Eduardo Botelho",
+      "username": "edu234",
+      "id": 13
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "Cellphones"
+      "name": "Cellphones",
+      "userId": 1
     },
     {
       "id": 2,
-      "name": "Monitors"
+      "name": "Monitors",
+      "userId": 1
     },
     {
       "id": 3,
-      "name": "Gaming"
+      "name": "Gaming",
+      "userId": 1
     },
     {
       "id": 4,
-      "name": "Accessories"
+      "name": "Accessories",
+      "userId": 1
     }
   ],
   "products": [
@@ -83,7 +120,8 @@
       "description": "A flagship smartphone from Samsung featuring powerful performance, stunning display, and advanced camera capabilities.",
       "image": "/products/product1.jpg",
       "price": "799.99",
-      "purchases": 7
+      "purchases": 7,
+      "userId": 1
     },
     {
       "id": 2,
@@ -92,7 +130,8 @@
       "description": "The latest offering from Apple, known for its sleek design, impressive camera system, and powerful performance.",
       "image": "/products/product2.jpg",
       "price": "1099.99",
-      "purchases": 3
+      "purchases": 3,
+      "userId": 1
     },
     {
       "id": 3,
@@ -101,7 +140,8 @@
       "description": "Google's flagship smartphone with a focus on photography, featuring advanced AI capabilities and seamless integration with Google services.",
       "image": "/products/product3.jpg",
       "price": "699.99",
-      "purchases": 15
+      "purchases": 15,
+      "userId": 1
     },
     {
       "id": 4,
@@ -110,7 +150,8 @@
       "description": "A premium smartphone from OnePlus, known for its fast performance, smooth software experience, and high-quality display.",
       "image": "/products/product4.jpg",
       "price": "899.99",
-      "purchases": 2
+      "purchases": 2,
+      "userId": 1
     },
     {
       "id": 5,
@@ -119,7 +160,8 @@
       "description": "Xiaomi's flagship smartphone featuring top-of-the-line hardware, impressive camera system, and sleek design at an affordable price.",
       "image": "/products/product5.jpg",
       "price": "649.99",
-      "purchases": 7
+      "purchases": 7,
+      "userId": 1
     },
     {
       "id": 6,
@@ -128,7 +170,8 @@
       "image": "/products/product6.jpg",
       "price": "1199.99",
       "purchases": 9,
-      "description": "The Sony Xperia 1 III is a flagship smartphone that combines cutting-edge technology with sleek design. Featuring a stunning 4K OLED display, triple camera system with Zeiss optics, and Qualcomm Snapdragon 888 processor, it delivers exceptional performance for gaming, photography, and multimedia."
+      "description": "The Sony Xperia 1 III is a flagship smartphone that combines cutting-edge technology with sleek design. Featuring a stunning 4K OLED display, triple camera system with Zeiss optics, and Qualcomm Snapdragon 888 processor, it delivers exceptional performance for gaming, photography, and multimedia.",
+      "userId": 1
     },
     {
       "id": 7,
@@ -137,7 +180,8 @@
       "image": "/products/product7.jpg",
       "price": "749.99",
       "purchases": 6,
-      "description": "The Huawei P40 Pro is a premium smartphone renowned for its exceptional camera capabilities. With a Leica quad-camera setup, including a 50MP Ultra Vision sensor, it captures stunning photos and videos in any lighting condition. Its sleek design and powerful performance make it a top choice for photography enthusiasts."
+      "description": "The Huawei P40 Pro is a premium smartphone renowned for its exceptional camera capabilities. With a Leica quad-camera setup, including a 50MP Ultra Vision sensor, it captures stunning photos and videos in any lighting condition. Its sleek design and powerful performance make it a top choice for photography enthusiasts.",
+      "userId": 1
     },
     {
       "id": 8,
@@ -146,7 +190,8 @@
       "image": "/products/product8.jpg",
       "price": "599.99",
       "purchases": 7,
-      "description": "The LG Velvet is a stylish and versatile smartphone designed to provide a premium user experience. With its sleek 3D arc design and waterfall display, it offers immersive visuals and comfortable grip. Powered by a Qualcomm Snapdragon 765G processor and featuring a versatile triple-camera system, it delivers exceptional performance for work and play."
+      "description": "The LG Velvet is a stylish and versatile smartphone designed to provide a premium user experience. With its sleek 3D arc design and waterfall display, it offers immersive visuals and comfortable grip. Powered by a Qualcomm Snapdragon 765G processor and featuring a versatile triple-camera system, it delivers exceptional performance for work and play.",
+      "userId": 1
     },
     {
       "id": 9,
@@ -164,7 +209,8 @@
       "image": "/products/product10.jpg",
       "price": "499.99",
       "purchases": 14,
-      "description": "The Nokia 9 PureView sets new standards in smartphone photography with its innovative five-camera array powered by ZEISS Optics. Each of its cameras works simultaneously to capture up to 10 times more light than a single smartphone camera color sensor. With its stunning design and pure Android experience, it's a must-have for photography enthusiasts."
+      "description": "The Nokia 9 PureView sets new standards in smartphone photography with its innovative five-camera array powered by ZEISS Optics. Each of its cameras works simultaneously to capture up to 10 times more light than a single smartphone camera color sensor. With its stunning design and pure Android experience, it's a must-have for photography enthusiasts.",
+      "userId": 1
     },
     {
       "id": 11,
@@ -173,7 +219,8 @@
       "image": "/products/product11.jpg",
       "price": "999.99",
       "purchases": 11,
-      "description": "The ASUS ROG Phone 5 is the ultimate gaming smartphone designed to deliver unrivaled performance and immersive gaming experiences. With its Qualcomm Snapdragon 888 processor, 144Hz AMOLED display, and AirTrigger touch sensors, it provides smooth gameplay and precise controls. Its advanced cooling system ensures sustained high performance during intense gaming sessions."
+      "description": "The ASUS ROG Phone 5 is the ultimate gaming smartphone designed to deliver unrivaled performance and immersive gaming experiences. With its Qualcomm Snapdragon 888 processor, 144Hz AMOLED display, and AirTrigger touch sensors, it provides smooth gameplay and precise controls. Its advanced cooling system ensures sustained high performance during intense gaming sessions.",
+      "userId": 1
     },
     {
       "id": 12,
@@ -182,7 +229,8 @@
       "image": "/products/product12.jpg",
       "price": "399.99",
       "purchases": 1,
-      "description": "The BlackBerry Key2 combines modern features with the iconic BlackBerry keyboard for a unique and productive smartphone experience. With its tactile keyboard and customizable shortcuts, it offers efficient typing and multitasking. Enhanced security features and long-lasting battery life make it an ideal choice for professionals."
+      "description": "The BlackBerry Key2 combines modern features with the iconic BlackBerry keyboard for a unique and productive smartphone experience. With its tactile keyboard and customizable shortcuts, it offers efficient typing and multitasking. Enhanced security features and long-lasting battery life make it an ideal choice for professionals.",
+      "userId": 1
     },
     {
       "id": 13,
@@ -191,7 +239,8 @@
       "image": "/products/product13.jpg",
       "price": "349.99",
       "purchases": 4,
-      "description": "The Dell Ultrasharp U2719D is a professional-grade monitor designed for productivity and multimedia tasks. With its 27-inch QHD display and thin bezel design, it offers stunning visuals and a seamless multi-monitor setup. Factory calibration and flicker-free technology ensure comfortable viewing for long work sessions."
+      "description": "The Dell Ultrasharp U2719D is a professional-grade monitor designed for productivity and multimedia tasks. With its 27-inch QHD display and thin bezel design, it offers stunning visuals and a seamless multi-monitor setup. Factory calibration and flicker-free technology ensure comfortable viewing for long work sessions.",
+      "userId": 1
     },
     {
       "id": 14,
@@ -200,7 +249,8 @@
       "image": "/products/product14.jpg",
       "price": "449.99",
       "purchases": 8,
-      "description": "The LG 27UK850-W is a versatile monitor that combines stunning visuals with advanced connectivity options. With its 4K UHD resolution and HDR10 support, it delivers vibrant colors and sharp details for immersive multimedia experiences. USB-C connectivity and ergonomic design make it ideal for both work and entertainment."
+      "description": "The LG 27UK850-W is a versatile monitor that combines stunning visuals with advanced connectivity options. With its 4K UHD resolution and HDR10 support, it delivers vibrant colors and sharp details for immersive multimedia experiences. USB-C connectivity and ergonomic design make it ideal for both work and entertainment.",
+      "userId": 1
     },
     {
       "id": 15,
@@ -209,7 +259,8 @@
       "image": "/products/product15.jpg",
       "price": "379.99",
       "purchases": 4,
-      "description": "The ASUS TUF Gaming VG27AQ is a high-performance gaming monitor designed to deliver smooth and immersive gameplay. With its WQHD resolution, 165Hz refresh rate, and Adaptive-Sync technology, it provides fluid visuals and tear-free gaming experiences. Robust construction and customizable features make it a reliable choice for gamers."
+      "description": "The ASUS TUF Gaming VG27AQ is a high-performance gaming monitor designed to deliver smooth and immersive gameplay. With its WQHD resolution, 165Hz refresh rate, and Adaptive-Sync technology, it provides fluid visuals and tear-free gaming experiences. Robust construction and customizable features make it a reliable choice for gamers.",
+      "userId": 1
     },
     {
       "id": 16,
@@ -218,7 +269,8 @@
       "image": "/products/product16.jpg",
       "price": "699.99",
       "purchases": 4,
-      "description": "The Samsung Odyssey G7 is a curved gaming monitor that offers an immersive viewing experience and competitive edge. With its QLED technology, 240Hz refresh rate, and 1ms response time, it delivers smooth and responsive gameplay. The futuristic design and customizable lighting add style to any gaming setup."
+      "description": "The Samsung Odyssey G7 is a curved gaming monitor that offers an immersive viewing experience and competitive edge. With its QLED technology, 240Hz refresh rate, and 1ms response time, it delivers smooth and responsive gameplay. The futuristic design and customizable lighting add style to any gaming setup.",
+      "userId": 1
     },
     {
       "id": 17,
@@ -227,7 +279,8 @@
       "image": "/products/product17.jpg",
       "price": "599.99",
       "purchases": 7,
-      "description": "The Acer Predator XB271HU is a high-performance gaming monitor designed to provide a competitive edge in fast-paced games. With its WQHD resolution, 144Hz refresh rate, and NVIDIA G-SYNC technology, it delivers smooth and tear-free gameplay. Ergonomic design and customizable settings ensure comfortable and immersive gaming experiences."
+      "description": "The Acer Predator XB271HU is a high-performance gaming monitor designed to provide a competitive edge in fast-paced games. With its WQHD resolution, 144Hz refresh rate, and NVIDIA G-SYNC technology, it delivers smooth and tear-free gameplay. Ergonomic design and customizable settings ensure comfortable and immersive gaming experiences.",
+      "userId": 1
     },
     {
       "id": 18,
@@ -236,7 +289,8 @@
       "image": "/products/product18.jpg",
       "price": "699.99",
       "purchases": 10,
-      "description": "The BenQ EX3501R is an ultrawide curved monitor that offers immersive visuals and multitasking capabilities. With its 35-inch display, 3440x1440 resolution, and HDR support, it delivers stunning image quality for both work and entertainment. Integrated speakers and USB-C connectivity enhance productivity and convenience."
+      "description": "The BenQ EX3501R is an ultrawide curved monitor that offers immersive visuals and multitasking capabilities. With its 35-inch display, 3440x1440 resolution, and HDR support, it delivers stunning image quality for both work and entertainment. Integrated speakers and USB-C connectivity enhance productivity and convenience.",
+      "userId": 1
     },
     {
       "id": 19,
@@ -245,7 +299,8 @@
       "image": "/products/product19.jpg",
       "price": "249.99",
       "purchases": 14,
-      "description": "The HP Pavilion 27xw is a stylish and affordable monitor designed for everyday computing tasks and multimedia entertainment. With its Full HD IPS display and ultra-wide viewing angles, it delivers crisp and vibrant visuals from any angle. Slim bezels and sleek design make it a perfect addition to any modern workspace."
+      "description": "The HP Pavilion 27xw is a stylish and affordable monitor designed for everyday computing tasks and multimedia entertainment. With its Full HD IPS display and ultra-wide viewing angles, it delivers crisp and vibrant visuals from any angle. Slim bezels and sleek design make it a perfect addition to any modern workspace.",
+      "userId": 1
     },
     {
       "id": 20,
@@ -254,7 +309,8 @@
       "image": "/products/product20.jpg",
       "price": "279.99",
       "purchases": 12,
-      "description": "The ViewSonic VX3276-2K-MHD is a stylish and affordable monitor that delivers stunning visuals and versatile connectivity options. With its 32-inch QHD display and ultra-slim bezel design, it provides immersive viewing experiences for work and entertainment. HDMI, DisplayPort, and VGA inputs ensure compatibility with a wide range of devices."
+      "description": "The ViewSonic VX3276-2K-MHD is a stylish and affordable monitor that delivers stunning visuals and versatile connectivity options. With its 32-inch QHD display and ultra-slim bezel design, it provides immersive viewing experiences for work and entertainment. HDMI, DisplayPort, and VGA inputs ensure compatibility with a wide range of devices.",
+      "userId": 1
     },
     {
       "id": 21,
@@ -263,7 +319,8 @@
       "image": "/products/product21.jpg",
       "price": "499.99",
       "purchases": 4,
-      "description": "The Dell S2721DGF is a high-performance gaming monitor designed to deliver smooth and immersive gameplay. With its QHD resolution, 165Hz refresh rate, and AMD FreeSync Premium Pro technology, it provides tear-free visuals and responsive gaming experiences. Its sleek design and customizable features make it a perfect choice for gamers."
+      "description": "The Dell S2721DGF is a high-performance gaming monitor designed to deliver smooth and immersive gameplay. With its QHD resolution, 165Hz refresh rate, and AMD FreeSync Premium Pro technology, it provides tear-free visuals and responsive gaming experiences. Its sleek design and customizable features make it a perfect choice for gamers.",
+      "userId": 1
     },
     {
       "id": 22,
@@ -272,7 +329,8 @@
       "image": "/products/product22.jpg",
       "price": "1199.99",
       "purchases": 7,
-      "description": "The LG 34WK95U-W is an ultrawide monitor that combines stunning visuals with multitasking capabilities. With its 34-inch Nano IPS display, 5K resolution, and Thunderbolt 3 connectivity, it offers exceptional image quality and seamless connectivity. Its ergonomic design and adjustable stand ensure comfortable viewing for long work sessions."
+      "description": "The LG 34WK95U-W is an ultrawide monitor that combines stunning visuals with multitasking capabilities. With its 34-inch Nano IPS display, 5K resolution, and Thunderbolt 3 connectivity, it offers exceptional image quality and seamless connectivity. Its ergonomic design and adjustable stand ensure comfortable viewing for long work sessions.",
+      "userId": 1
     },
     {
       "id": 23,
@@ -281,7 +339,8 @@
       "image": "/products/product23.jpg",
       "price": "299.99",
       "purchases": 6,
-      "description": "The ASUS ProArt PA248QV is a professional-grade monitor designed for color-critical tasks and multimedia production. With its 24.1-inch IPS display and factory calibration, it delivers accurate and consistent colors for photo and video editing. Ergonomic design and versatile connectivity options make it a perfect choice for creative professionals."
+      "description": "The ASUS ProArt PA248QV is a professional-grade monitor designed for color-critical tasks and multimedia production. With its 24.1-inch IPS display and factory calibration, it delivers accurate and consistent colors for photo and video editing. Ergonomic design and versatile connectivity options make it a perfect choice for creative professionals.",
+      "userId": 1
     },
     {
       "id": 24,
@@ -290,7 +349,8 @@
       "image": "/products/product24.jpg",
       "price": "799.99",
       "purchases": 12,
-      "description": "The Acer Nitro XV273K is a high-performance gaming monitor designed to provide a competitive edge in fast-paced games. With its 4K UHD resolution, 144Hz refresh rate, and AMD FreeSync technology, it delivers smooth and tear-free gameplay. HDR support and ultra-low motion blur enhance visual clarity and immersion."
+      "description": "The Acer Nitro XV273K is a high-performance gaming monitor designed to provide a competitive edge in fast-paced games. With its 4K UHD resolution, 144Hz refresh rate, and AMD FreeSync technology, it delivers smooth and tear-free gameplay. HDR support and ultra-low motion blur enhance visual clarity and immersion.",
+      "userId": 1
     },
     {
       "id": 25,
@@ -299,7 +359,8 @@
       "image": "/products/product25.jpg",
       "price": "69.99",
       "purchases": 7,
-      "description": "The Razer DeathAdder Elite is a high-performance gaming mouse designed for precision and comfort during extended gaming sessions. With its 16,000 DPI optical sensor and customizable RGB lighting, it offers precise tracking and personalized style. Ergonomic design and durable construction make it a top choice for competitive gamers."
+      "description": "The Razer DeathAdder Elite is a high-performance gaming mouse designed for precision and comfort during extended gaming sessions. With its 16,000 DPI optical sensor and customizable RGB lighting, it offers precise tracking and personalized style. Ergonomic design and durable construction make it a top choice for competitive gamers.",
+      "userId": 1
     },
     {
       "id": 26,
@@ -308,7 +369,8 @@
       "image": "/products/product26.jpg",
       "price": "149.99",
       "purchases": 5,
-      "description": "The SteelSeries Arctis 7 is a wireless gaming headset designed for immersive audio and long-lasting comfort. With its DTS Headphone:X v2.0 surround sound and ClearCast microphone, it delivers crystal-clear audio and precise communication. Lightweight construction and adjustable headband ensure a comfortable fit for hours of gaming."
+      "description": "The SteelSeries Arctis 7 is a wireless gaming headset designed for immersive audio and long-lasting comfort. With its DTS Headphone:X v2.0 surround sound and ClearCast microphone, it delivers crystal-clear audio and precise communication. Lightweight construction and adjustable headband ensure a comfortable fit for hours of gaming.",
+      "userId": 1
     },
     {
       "id": 27,
@@ -317,7 +379,8 @@
       "image": "/products/product27.jpg",
       "price": "179.99",
       "purchases": 5,
-      "description": "The Corsair K95 RGB Platinum is a high-performance mechanical gaming keyboard designed for competitive gaming and customization. With its Cherry MX switches and per-key RGB backlighting, it offers responsive keystrokes and stunning visual effects. Dedicated macro keys and multimedia controls provide convenient access to essential functions."
+      "description": "The Corsair K95 RGB Platinum is a high-performance mechanical gaming keyboard designed for competitive gaming and customization. With its Cherry MX switches and per-key RGB backlighting, it offers responsive keystrokes and stunning visual effects. Dedicated macro keys and multimedia controls provide convenient access to essential functions.",
+      "userId": 1
     },
     {
       "id": 28,
@@ -326,7 +389,8 @@
       "image": "/products/product28.jpg",
       "price": "129.99",
       "purchases": 5,
-      "description": "The Logitech G Pro X Superlight is a wireless gaming mouse designed for professional gamers seeking lightweight performance. With its HERO sensor and ultra-lightweight design, it offers exceptional accuracy and agility during intense gaming sessions. Long-lasting battery life and customizable buttons make it a top choice for competitive play."
+      "description": "The Logitech G Pro X Superlight is a wireless gaming mouse designed for professional gamers seeking lightweight performance. With its HERO sensor and ultra-lightweight design, it offers exceptional accuracy and agility during intense gaming sessions. Long-lasting battery life and customizable buttons make it a top choice for competitive play.",
+      "userId": 1
     },
     {
       "id": 29,
@@ -335,7 +399,8 @@
       "image": "/products/product29.jpg",
       "price": "129.99",
       "purchases": 12,
-      "description": "The HyperX Cloud Alpha S is a gaming headset that combines comfort with immersive sound for a superior gaming experience. With its dual-chamber drivers and bass adjustment sliders, it delivers rich and detailed audio with enhanced bass. Durable aluminum frame and memory foam ear cushions provide long-lasting comfort during extended gaming sessions."
+      "description": "The HyperX Cloud Alpha S is a gaming headset that combines comfort with immersive sound for a superior gaming experience. With its dual-chamber drivers and bass adjustment sliders, it delivers rich and detailed audio with enhanced bass. Durable aluminum frame and memory foam ear cushions provide long-lasting comfort during extended gaming sessions.",
+      "userId": 1
     },
     {
       "id": 30,
@@ -344,7 +409,8 @@
       "image": "/products/product30.jpg",
       "price": "79.99",
       "purchases": 6,
-      "description": "The Elgato Stream Deck Mini is a compact control pad designed for content creators and streamers. With its customizable keys and intuitive software, it allows users to streamline their workflow and control streaming software with ease. Its sleek design and plug-and-play setup make it a perfect companion for live streaming and content creation."
+      "description": "The Elgato Stream Deck Mini is a compact control pad designed for content creators and streamers. With its customizable keys and intuitive software, it allows users to streamline their workflow and control streaming software with ease. Its sleek design and plug-and-play setup make it a perfect companion for live streaming and content creation.",
+      "userId": 1
     },
     {
       "id": 31,
@@ -353,7 +419,8 @@
       "image": "/products/product31.jpg",
       "price": "99.99",
       "purchases": 11,
-      "description": "The Razer Naga Trinity is a versatile gaming mouse designed for MMO gaming and productivity tasks. With its interchangeable side plates featuring different button configurations, it offers customizable control for various gaming genres and applications. High-precision 16,000 DPI optical sensor and customizable Chroma RGB lighting provide a personalized gaming experience."
+      "description": "The Razer Naga Trinity is a versatile gaming mouse designed for MMO gaming and productivity tasks. With its interchangeable side plates featuring different button configurations, it offers customizable control for various gaming genres and applications. High-precision 16,000 DPI optical sensor and customizable Chroma RGB lighting provide a personalized gaming experience.",
+      "userId": 1
     },
     {
       "id": 32,
@@ -362,7 +429,8 @@
       "image": "/products/product32.jpg",
       "price": "149.99",
       "purchases": 1,
-      "description": "The ASTRO Gaming A40 TR is a professional-grade gaming headset known for its comfort, durability, and audio quality. With its customizable speaker tags, swappable precision microphone, and Astro Command Center software, it offers personalized audio experiences for gamers and streamers. The lightweight and durable construction ensure long-lasting comfort during extended gaming sessions."
+      "description": "The ASTRO Gaming A40 TR is a professional-grade gaming headset known for its comfort, durability, and audio quality. With its customizable speaker tags, swappable precision microphone, and Astro Command Center software, it offers personalized audio experiences for gamers and streamers. The lightweight and durable construction ensure long-lasting comfort during extended gaming sessions.",
+      "userId": 1
     },
     {
       "id": 33,
@@ -371,7 +439,8 @@
       "image": "/products/product33.jpg",
       "price": "29.99",
       "purchases": 3,
-      "description": "The Corsair MM300 is an extended gaming mouse pad designed for precise control and durability. With its smooth cloth surface and anti-skid rubber base, it provides a stable platform for accurate mouse movements. The stitched edges prevent fraying, ensuring long-lasting performance even during intense gaming sessions. Its large size accommodates both keyboard and mouse, providing ample space for gaming gear."
+      "description": "The Corsair MM300 is an extended gaming mouse pad designed for precise control and durability. With its smooth cloth surface and anti-skid rubber base, it provides a stable platform for accurate mouse movements. The stitched edges prevent fraying, ensuring long-lasting performance even during intense gaming sessions. Its large size accommodates both keyboard and mouse, providing ample space for gaming gear.",
+      "userId": 1
     },
     {
       "id": 34,
@@ -380,7 +449,8 @@
       "image": "/products/product34.jpg",
       "price": "79.99",
       "purchases": 14,
-      "description": "The Razer Tartarus V2 is a gaming keypad designed for MMO gaming and advanced keybinds. With its customizable Mecha-Membrane keys and ergonomic design, it offers responsive and comfortable gaming experiences. The 32 programmable keys and eight-way directional thumbpad provide intuitive control and quick access to essential commands. Its adjustable wrist rest ensures ergonomic comfort during long gaming sessions."
+      "description": "The Razer Tartarus V2 is a gaming keypad designed for MMO gaming and advanced keybinds. With its customizable Mecha-Membrane keys and ergonomic design, it offers responsive and comfortable gaming experiences. The 32 programmable keys and eight-way directional thumbpad provide intuitive control and quick access to essential commands. Its adjustable wrist rest ensures ergonomic comfort during long gaming sessions.",
+      "userId": 1
     },
     {
       "id": 35,
@@ -389,7 +459,8 @@
       "image": "/products/product35.jpg",
       "price": "99.99",
       "purchases": 10,
-      "description": "The Logitech G Pro X is a professional gaming headset known for its premium audio quality and comfort. With its Pro-G 50mm drivers and Blue VO!CE microphone technology, it delivers clear and immersive sound for gaming and streaming. Lightweight construction and memory foam ear pads provide long-lasting comfort during extended gaming sessions."
+      "description": "The Logitech G Pro X is a professional gaming headset known for its premium audio quality and comfort. With its Pro-G 50mm drivers and Blue VO!CE microphone technology, it delivers clear and immersive sound for gaming and streaming. Lightweight construction and memory foam ear pads provide long-lasting comfort during extended gaming sessions.",
+      "userId": 1
     },
     {
       "id": 36,
@@ -398,7 +469,8 @@
       "image": "/products/product36.jpg",
       "price": "19.99",
       "purchases": 5,
-      "description": "The SteelSeries QcK is a legendary gaming surface known for its smooth gliding and durability. With its high-quality cloth material and non-slip rubber base, it provides a stable and consistent surface for precise mouse movements. Its medium size makes it suitable for both high and low DPI gaming, making it a versatile choice for gamers of all styles."
+      "description": "The SteelSeries QcK is a legendary gaming surface known for its smooth gliding and durability. With its high-quality cloth material and non-slip rubber base, it provides a stable and consistent surface for precise mouse movements. Its medium size makes it suitable for both high and low DPI gaming, making it a versatile choice for gamers of all styles.",
+      "userId": 1
     },
     {
       "id": 37,
@@ -407,7 +479,8 @@
       "image": "/products/product37.jpg",
       "price": "29.99",
       "purchases": 10,
-      "description": "The Anker PowerCore 10000 is a compact and lightweight portable charger designed for on-the-go charging. With its 10,000mAh capacity, it can provide multiple charges for smartphones, tablets, and other USB devices. The high-speed charging technology ensures fast and efficient charging, while the compact design fits easily into pockets and bags for convenient portability."
+      "description": "The Anker PowerCore 10000 is a compact and lightweight portable charger designed for on-the-go charging. With its 10,000mAh capacity, it can provide multiple charges for smartphones, tablets, and other USB devices. The high-speed charging technology ensures fast and efficient charging, while the compact design fits easily into pockets and bags for convenient portability.",
+      "userId": 1
     },
     {
       "id": 38,
@@ -416,7 +489,8 @@
       "image": "/products/product38.jpg",
       "price": "49.99",
       "purchases": 5,
-      "description": "The Amazon Echo Dot (4th Gen) is a smart speaker with Alexa voice control that brings convenience and entertainment to any room. With its compact design and improved sound quality, it delivers crisp vocals and balanced bass for music, podcasts, and more. Use voice commands to control smart home devices, set alarms, play music, and much more."
+      "description": "The Amazon Echo Dot (4th Gen) is a smart speaker with Alexa voice control that brings convenience and entertainment to any room. With its compact design and improved sound quality, it delivers crisp vocals and balanced bass for music, podcasts, and more. Use voice commands to control smart home devices, set alarms, play music, and much more.",
+      "userId": 1
     },
     {
       "id": 39,
@@ -425,7 +499,8 @@
       "image": "/products/product39.jpg",
       "price": "249.99",
       "purchases": 2,
-      "description": "The Apple AirPods Pro are premium wireless earbuds known for their immersive sound and active noise cancellation. With their customizable fit and adaptive EQ, they deliver rich and detailed audio in any environment. Transparency mode lets you hear your surroundings when needed, while the sweat and water-resistant design make them ideal for workouts and everyday use."
+      "description": "The Apple AirPods Pro are premium wireless earbuds known for their immersive sound and active noise cancellation. With their customizable fit and adaptive EQ, they deliver rich and detailed audio in any environment. Transparency mode lets you hear your surroundings when needed, while the sweat and water-resistant design make them ideal for workouts and everyday use.",
+      "userId": 1
     },
     {
       "id": 40,
@@ -434,7 +509,8 @@
       "image": "/products/product40.jpg",
       "price": "179.99",
       "purchases": 4,
-      "description": "The Fitbit Charge 5 is an advanced fitness tracker designed to help you achieve your health and wellness goals. With its built-in GPS, heart rate monitor, and activity tracking features, it provides comprehensive insights into your daily activities and workouts. Sleep tracking and stress management tools help you prioritize rest and relaxation for overall well-being."
+      "description": "The Fitbit Charge 5 is an advanced fitness tracker designed to help you achieve your health and wellness goals. With its built-in GPS, heart rate monitor, and activity tracking features, it provides comprehensive insights into your daily activities and workouts. Sleep tracking and stress management tools help you prioritize rest and relaxation for overall well-being.",
+      "userId": 1
     },
     {
       "id": 41,
@@ -443,7 +519,8 @@
       "image": "/products/product41.jpg",
       "price": "24.99",
       "purchases": 5,
-      "description": "The Tile Mate is a Bluetooth key finder that helps you keep track of your keys, wallet, and other important items. With its compact design and adhesive backing, it attaches easily to your belongings and pairs with the Tile app on your smartphone. Use the app to ring your Tile Mate when it's nearby or see its last known location on a map when it's out of range."
+      "description": "The Tile Mate is a Bluetooth key finder that helps you keep track of your keys, wallet, and other important items. With its compact design and adhesive backing, it attaches easily to your belongings and pairs with the Tile app on your smartphone. Use the app to ring your Tile Mate when it's nearby or see its last known location on a map when it's out of range.",
+      "userId": 1
     },
     {
       "id": 42,
@@ -452,7 +529,8 @@
       "image": "/products/product42.jpg",
       "price": "129.99",
       "purchases": 10,
-      "description": "The Google Nest Thermostat is a smart thermostat that helps you save energy and stay comfortable year-round. With its sleek design and intuitive controls, it learns your heating and cooling preferences and adjusts automatically to maximize efficiency. Remote control via the Nest app allows you to adjust settings from anywhere, while energy-saving features help reduce utility bills."
+      "description": "The Google Nest Thermostat is a smart thermostat that helps you save energy and stay comfortable year-round. With its sleek design and intuitive controls, it learns your heating and cooling preferences and adjusts automatically to maximize efficiency. Remote control via the Nest app allows you to adjust settings from anywhere, while energy-saving features help reduce utility bills.",
+      "userId": 1
     },
     {
       "id": 43,
@@ -461,7 +539,8 @@
       "image": "/products/product43.jpg",
       "price": "329.99",
       "purchases": 2,
-      "description": "The Bose QuietComfort 45 are premium noise-canceling headphones known for their exceptional sound quality and comfort. With their advanced noise-canceling technology and balanced audio performance, they deliver immersive sound in any environment. Lightweight and comfortable, they're ideal for long listening sessions at home, in the office, or on the go."
+      "description": "The Bose QuietComfort 45 are premium noise-canceling headphones known for their exceptional sound quality and comfort. With their advanced noise-canceling technology and balanced audio performance, they deliver immersive sound in any environment. Lightweight and comfortable, they're ideal for long listening sessions at home, in the office, or on the go.",
+      "userId": 1
     },
     {
       "id": 44,
@@ -470,7 +549,8 @@
       "image": "/products/product44.jpg",
       "price": "299.99",
       "purchases": 3,
-      "description": "The Samsung Galaxy Watch 4 is a stylish and feature-rich smartwatch designed to help you stay connected and active. With its built-in GPS, heart rate monitor, and fitness tracking features, it provides comprehensive health insights and workout tracking. Wear OS integration allows you to access apps, notifications, and voice commands right from your wrist."
+      "description": "The Samsung Galaxy Watch 4 is a stylish and feature-rich smartwatch designed to help you stay connected and active. With its built-in GPS, heart rate monitor, and fitness tracking features, it provides comprehensive health insights and workout tracking. Wear OS integration allows you to access apps, notifications, and voice commands right from your wrist.",
+      "userId": 1
     },
     {
       "id": 45,
@@ -479,7 +559,8 @@
       "image": "/products/product45.jpg",
       "price": "99.99",
       "purchases": 10,
-      "description": "The Logitech MX Master 3 is a premium wireless mouse designed for productivity and precision. With its customizable buttons, advanced scroll wheel, and ergonomic design, it offers a comfortable and efficient workflow. High-precision tracking and long-lasting battery life make it a versatile choice for professionals and creatives alike."
+      "description": "The Logitech MX Master 3 is a premium wireless mouse designed for productivity and precision. With its customizable buttons, advanced scroll wheel, and ergonomic design, it offers a comfortable and efficient workflow. High-precision tracking and long-lasting battery life make it a versatile choice for professionals and creatives alike.",
+      "userId": 1
     },
     {
       "id": 46,
@@ -488,7 +569,8 @@
       "image": "/products/product46.jpg",
       "price": "119.99",
       "purchases": 3,
-      "description": "The JBL Flip 5 is a portable Bluetooth speaker that delivers powerful sound in a compact and durable design. With its waterproof construction and long-lasting battery life, it's perfect for outdoor adventures and poolside parties. PartyBoost technology allows you to pair multiple JBL speakers for an immersive stereo sound experience."
+      "description": "The JBL Flip 5 is a portable Bluetooth speaker that delivers powerful sound in a compact and durable design. With its waterproof construction and long-lasting battery life, it's perfect for outdoor adventures and poolside parties. PartyBoost technology allows you to pair multiple JBL speakers for an immersive stereo sound experience.",
+      "userId": 1
     },
     {
       "id": 47,
@@ -497,7 +579,8 @@
       "image": "/products/product47.jpg",
       "price": "499.99",
       "purchases": 4,
-      "description": "The GoPro HERO10 Black is a flagship action camera designed to capture stunning footage in any environment. With its 5.3K video resolution, HyperSmooth 4.0 stabilization, and advanced low-light performance, it delivers cinematic-quality footage with smooth and steady results. The rugged and waterproof design makes it perfect for adventures on land, sea, and air."
+      "description": "The GoPro HERO10 Black is a flagship action camera designed to capture stunning footage in any environment. With its 5.3K video resolution, HyperSmooth 4.0 stabilization, and advanced low-light performance, it delivers cinematic-quality footage with smooth and steady results. The rugged and waterproof design makes it perfect for adventures on land, sea, and air.",
+      "userId": 1
     },
     {
       "id": 48,
