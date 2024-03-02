@@ -7,8 +7,6 @@ const corsOptions = {
   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
-app.use(cors(corsOptions));
-
 const rules = auth.rewriter({
   // Permission rules
   users: 600,
@@ -26,6 +24,7 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 // You must apply the auth middleware before the router
+app.use(cors(corsOptions));
 app.use(rules);
 app.use(auth);
 app.use(router);
