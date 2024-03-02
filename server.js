@@ -1,5 +1,13 @@
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
+const cors = require("cors");
+
+const corsOptions = {
+  origin: "*",
+  optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+};
+
+app.use(cors(corsOptions));
 
 const rules = auth.rewriter({
   // Permission rules
