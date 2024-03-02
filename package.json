@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "npx json-server-auth db.json -r routes.json",
     "dev-noauth": "npx json-server --watch db.json",
-    "start": "nodemon --exec npx json-server-auth db.json -r routes.json"
+    "start": "nodemon server"
   },
   "dependencies": {
     "json-server": "^0.17.4",
