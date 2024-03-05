@@ -174,7 +174,8 @@
       "image": "/products/product9.jpg",
       "price": "899.99",
       "purchases": 12,
-      "description": "The Motorola Edge+ is a flagship smartphone that redefines power and performance. With its 6.7-inch Endless Edge display and Snapdragon 865 processor, it offers a seamless and immersive user experience. Equipped with a versatile triple-camera system and long-lasting battery, it's perfect for capturing memories and staying connected on the go."
+      "description": "The Motorola Edge+ is a flagship smartphone that redefines power and performance. With its 6.7-inch Endless Edge display and Snapdragon 865 processor, it offers a seamless and immersive user experience. Equipped with a versatile triple-camera system and long-lasting battery, it's perfect for capturing memories and staying connected on the go.",
+      "userId": 1
     },
     {
       "id": 10,
@@ -563,7 +564,8 @@
       "image": "/products/product48.jpg",
       "price": "349.99",
       "purchases": 10,
-      "description": "The Sony WH-1000XM4 are premium wireless headphones known for their industry-leading noise cancellation and immersive sound quality. With their adaptive noise-canceling technology and Dual Noise Sensor technology, they block out distractions and ambient noise for a truly immersive listening experience. Long battery life and comfortable design make them perfect for all-day use."
+      "description": "The Sony WH-1000XM4 are premium wireless headphones known for their industry-leading noise cancellation and immersive sound quality. With their adaptive noise-canceling technology and Dual Noise Sensor technology, they block out distractions and ambient noise for a truly immersive listening experience. Long battery life and comfortable design make them perfect for all-day use.",
+      "userId": 1
     }
   ],
   "rates": [
