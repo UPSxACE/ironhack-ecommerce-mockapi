@@ -88,14 +88,14 @@
   ],
   "products": [
     {
-      "id": 1,
       "categoryId": 1,
-      "title": "Samsung Galaxy S21",
-      "description": "A flagship smartphone from Samsung featuring powerful performance, stunning display, and advanced camera capabilities.",
+      "title": "Samsung Galaxy S21 Test",
       "image": "/products/product1.jpg",
+      "description": "A flagship smartphone from Samsung featuring powerful performance, stunning display, and advanced camera capabilities.",
       "price": "799.99",
+      "userId": 1,
       "purchases": 7,
-      "userId": 1
+      "id": 1
     },
     {
       "id": 2,
@@ -108,14 +108,14 @@
       "userId": 1
     },
     {
-      "id": 3,
       "categoryId": 1,
-      "title": "Google Pixel 6",
-      "description": "Google's flagship smartphone with a focus on photography, featuring advanced AI capabilities and seamless integration with Google services.",
+      "title": "Google Pixel 6B",
       "image": "/products/product3.jpg",
+      "description": "Google's flagship smartphone with a focus on photography, featuring advanced AI capabilities and seamless integration with Google services.",
       "price": "699.99",
+      "userId": 1,
       "purchases": 15,
-      "userId": 1
+      "id": 3
     },
     {
       "id": 4,
